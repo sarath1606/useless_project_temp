@@ -1,59 +1,87 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# [under water rov for inspection] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Spartans]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [sarath s nair] - [Jyothi Engineering College]
+- Member 2: [Nithin B Naik] - [Jyothi Engineering College]
+- Member 3: [Ashik Pm] - [Jyothi Engineering College]
 
 ### Project Description
-[2-3 lines about what your project does]
+[It is a rover for under water inspection]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
-
-### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[The project outlines real-world challenges in underwater inspection, including the inaccessibility of many regions and the limitations of current methods, which are often invasive, resource-intensive, and disruptive to the marine environment. The project suggests that existing tools are inefficient, expensive, and not environmentally friendly for detailed underwater inspections​.]
 
 ## Technical Details
+Mini Submarine Design: The ROV is compact, designed to perform detailed underwater inspections. It is equipped with advanced camera technology to capture high-resolution images and videos of underwater environments.
+Material Selection: The external structure is assembled using 3D-printed parts and other materials, such as acrylic sheets and cylinders, chosen for their ability to withstand underwater pressure (at least 10 meters deep). Epoxy resin and O-rings are used to ensure water resistance.
+Thruster and Propulsion: Motors are attached to thrusters, controlled by an ESC (Electronic Speed Controller), providing movement and control of the ROV underwater.
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Languages Used:
+
+Python
+C/C++
+Frameworks Used:
+
+RPi.GPIO (for Raspberry Pi hardware control)
+OpenCV (for image and video processing)
+Libraries Used:
+
+Pygame (for user interface/control)
+Picamera (for interfacing with the Raspberry Pi camera)
+Scikit-learn/TensorFlow (optional, if machine learning is used for object detection)
+Tools Used:
+
+Fusion 360 (for 3D design and simulation)
+Raspberry Pi OS (operating system)
+Fluid Dynamics Simulation Software (for underwater movement/stability testing)
+Thonny IDE (for Python development)
+3D Printing Software (for prototyping parts)
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+-Microcontroller/Computing Unit:
 
-### Implementation
-For Software:
-# Installation
-[commands]
+Raspberry Pi Model 3B (for controlling all hardware components)
+Motors:
 
-# Run
-[commands]
+BLDC (Brushless DC Motors) with ESC (Electronic Speed Controller) for propulsion and movement
+Camera:
+
+High-definition waterproof camera (integrated with Raspberry Pi for real-time video capture)
+Sensors:
+
+Pressure sensors (to monitor underwater depth and conditions)
+Power Supply:
+
+Battery (suitable for underwater operations and long runtime)
+Waterproofing Components:
+
+Acrylic sheets and cylinder (for the body/chamber to house electronics)
+Epoxy resin (for sealing and waterproofing connections)
+O-rings (for ensuring water resistance in critical joints)
+
+
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1]![image](https://github.com/user-attachments/assets/4167151d-ef88-47d0-88df-8eeb21362792)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+*Top view*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2]![image](https://github.com/user-attachments/assets/3b30b162-5d97-45df-bf55-6b6b42d0b72e)
+)
+*basic model*
+
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -80,16 +108,13 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+[]
 *Explain what the video demonstrates*
 
 # Additional Demos
 [Add any extra demo materials/links]
 
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
